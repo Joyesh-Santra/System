@@ -1,0 +1,59 @@
+Universal Selector
+
+select all the elements in a website
+*{
+    margin:0;
+}
+
+Type Selector
+p{
+    font-size: 16px;
+    margin:10px 20px 10px 20px; works in clockwise direction
+}
+
+Class Selector
+.highlight{
+    background-color: blue;
+}
+
+ID Selector
+#header{
+    background-color: black;
+}
+() - parenthesis [] - Brackets {}-Braces
+
+Attribute Selector
+input[type="text" ]{
+    border: 2px solid #21a2c9;
+}
+
+Descendent Selector
+All the p which are Descendent of article
+article p{
+    font-style: italic;
+    background-color: #1a1a1a;
+
+}
+
+Child Selector
+ul>li{
+    list-style-type: square;
+    background-color: orange;
+}
+
+Psuedo-class Selector
+a:hover{
+    background-color:#14a50e;
+    text-decoration:none;
+}
+Psuedo-element Selector
+p::first-letter{
+    font-weight:bold;
+    font-size: 20px;
+}
+Grouping Selector
+h1,h2,h3{
+    color:orange;
+}
+
+parent kae bad Child and Child kae bad Descendent
