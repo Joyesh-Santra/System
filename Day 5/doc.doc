@@ -1,0 +1,15 @@
+return 0 means no problem 
+return 1 means there is a problem
+
+
+
+std::cout standard character output
+
+
+A comment is ignored by the compiler
+
+/*
+
+
+
+*/
